@@ -13,3 +13,13 @@ console.log(typeof a,typeof b);
 var str1 = 'Hello';
 var str2 = "Hello";
 console.log(typeof str1, typeof str2);
+//3. Boolean
+var flag1 = true;
+var flag2 = false;
+console.log(typeof flag1, typeof flag2);  
+//4. undefined
+var num;
+console.log(num, typeof num);
+//5. null
+var n = null;
+console.log(n, typeof n);
