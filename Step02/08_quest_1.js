@@ -10,3 +10,8 @@ console.log(result);
 let n1 = 10, n2 = 9;
 result = a > b ? a - b : b - a;
 console.log(result);
+
+//숫자 하나를 저장한 다음에, 저장한 숫자가 '홀수' 인지 '짝수' 인지 출력
+let n = 10;
+result = n % 2 == 0 ? '짝수' : '홀수';
+console.log(result);
