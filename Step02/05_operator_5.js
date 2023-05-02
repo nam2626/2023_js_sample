@@ -19,5 +19,12 @@ console.log(!(a > 5));
 console.log(!(a > 5 || b < 30));
 console.log(!(a > 5 && b < 30));
 
+//단락 회로(Short Citcuit)
+let n1 = 10, n2 = 20;
+let result = n1 < n2 || ++n2 > 10;
+console.log(n1, n2, result);
+result = n1 > n2 && ++n2 > 10;
+console.log(n1, n2, result);
+
 
 
