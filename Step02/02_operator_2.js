@@ -11,3 +11,9 @@ a /= 4;
 console.log(a);
 a %= 5; 
 console.log(a);
+
+//문자열 연결 연산자
+var str1 = '서울시 ';
+str1 += '강서구 ';
+str1 += '화곡동';
+console.log(str1);
